@@ -38,8 +38,9 @@ const Carrito = [
 function agregarAlCarrito(idPedido, cantidadPedido) {
     
     Carrito.push({
-        idPedido,
-        cantidadPedido
+        id: idPedido,
+        producto: "agregado por el usuario",
+        cantidad: cantidadPedido
     });
 }
 
